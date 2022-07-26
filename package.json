@@ -2,10 +2,11 @@
   "name": "inkline-byteplug-document-viewer",
   "version": "0.0.1",
   "description": "Inkline component to display JSON document defined by a YAML specs.",
-  "main": "index.js",
+  "main": "dist/IDocumentViewer.esm.js",
   "type": "module",
+  "files": ["dist"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "bili --format esm IDocumentViewer.vue"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,13 @@
   "bugs": {
     "url": "https://github.com/intjelic/inkline-byteplug-document-viewer/issues"
   },
-  "homepage": "https://www.intjelic.me/projects/inkline-byteplug-document-viewer"
+  "homepage": "https://www.intjelic.me/projects/inkline-byteplug-document-viewer",
+  "devDependencies": {
+    "bili": "^5.0.5"
+  },
+  "dependencies": {
+    "rollup-plugin-vue": "^6.0.0",
+    "vue": "^3.2.37",
+    "vue-template-compiler": "^2.7.8"
+  }
 }
