@@ -1,0 +1,30 @@
+{
+  "name": "inkline-byteplug-document-viewer",
+  "version": "0.0.1",
+  "description": "Inkline component to display JSON document defined by a YAML specs.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intjelic/inkline-byteplug-document-viewer.git"
+  },
+  "keywords": [
+    "inkline",
+    "byteplug",
+    "document-validator",
+    "vue.js"
+  ],
+  "author": {
+    "name": "Jonathan De Wachter ",
+    "email": "dewachter.jonathan@gmail.com",
+    "url": "https://www.intjelic.me/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intjelic/inkline-byteplug-document-viewer/issues"
+  },
+  "homepage": "https://www.intjelic.me/projects/inkline-byteplug-document-viewer"
+}
